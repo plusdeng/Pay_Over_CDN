@@ -13,5 +13,24 @@ var setting = {
     qrcodeApi: "https://chart.googleapis.com/chart?chs=300x300&cht=qr&chld=L|1&choe=UTF-8&chl="
 }
 
-navigator.userAgent.match(/Alipay/i)?window.location.href=setting.aliUrl:navigator.userAgent.match(/MicroMessenger\//i)?(document.getElementById("wechat-url").src=setting.qrcodeApi+urlEncode(setting.wechatUrl),document.getElementById("code-wechat").style.display="block"):navigator.userAgent.match(/QQ\//i)?(document.getElementById("qq-url").src=setting.qrcodeApi+urlEncode(setting.qqUrl),document.getElementById("code-qq").style.display="block"):(document.getElementById("page-url").src=setting.qrcodeApi+
-urlEncode(window.location.href),document.getElementById("code-all").style.display="block");function urlEncode(a){return encodeURIComponent(a).replace(/'/g,"%27").replace(/"/g,"%22")};
+if(navigator.userAgent.match(/Alipay/i)) {
+    // 支付宝
+    window.location.href = setting.aliUrl;
+} else if(navigator.userAgent.match(/MicroMessenger\//i)) {
+    // 微信
+    document.getElementById("wechat-url").src = setting.qrcodeApi + urlEncode(setting.wechatUrl);
+    document.getElementById("code-wechat").style.display = "block";
+} else if(navigator.userAgent.match(/TIM\//i)) {
+    // QQ
+    document.getElementById("qq-url").src = setting.qrcodeApi + urlEncode(setting.qqUrl);
+    document.getElementById("code-qq").style.display = "block";
+} else if(navigator.userAgent.match(/QQ\//i)) {
+    // QQ
+    document.getElementById("qq-url").src = setting.qrcodeApi + urlEncode(setting.qqUrl);
+    document.getElementById("code-qq").style.display = "block";
+    alert("请先屏幕截图 再从相册选择截图扫描");
+} else {
+    // 其它，显示“万能码”
+    document.getElementById("page-url").src = setting.qrcodeApi + urlEncode(window.location.href);
+    document.getElementById("code-all").style.display = "block";
+}
