@@ -1,0 +1,11 @@
+<script type="text/javascript">
+    var script = document.createElement('script');
+    script.src = "https://api.ip.sb/geoip?callback=getgeoip";
+    document.getElementsByTagName('head')[0].appendChild(script);
+
+    function getgeoip(json) {
+        if (json.country_code === 'CN') 
+        window.location="http://example.com";
+        }
+    
+</script>

@@ -46,7 +46,7 @@ body {
 }
 
 #code-all>.code-title {
-    background-image: url("../images/three.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/hxco-qr/Pay_With_CDN@1.0/images/three.png");
 }
 
 #code-qq {
@@ -54,7 +54,7 @@ body {
 }
 
 #code-qq>.code-title {
-    background-image: url("../images/qq.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/hxco-qr/Pay_With_CDN@1.0/images/qq.png");
 }
 
 #code-wechat {
@@ -62,5 +62,5 @@ body {
 }
 
 #code-wechat>.code-title {
-    background-image: url("../images/wx.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/hxco-qr/Pay_With_CDN@1.0/images/wx.png");
 }
