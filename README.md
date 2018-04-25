@@ -36,10 +36,10 @@ The source code was from <a href="https://mkblog.cn">MKBlog</a>.
 - Use your QR Code at any where. If you want to keep your QR Code up to date, please Watch this project.
 
 # Credit
-- We thank for MengKun, who is the author of the original source code with very friendly code comments.
+- We thank for <a href="https://mkblog.cn">MengKun</a>, who is the author of the original source code with very friendly code comments.
 - We thank for Cloudflare, who is providing free CDN and anti-ddos service to us.
 - We thank for TrustAsia, who is providing free SSL Certificate in China to us.
-- We thank for Mashiro, Paul and FCZBL. They help us to build this awesome project.
+- We thank for <a href="https://2heng.xin>Mashiro</a>", <a href="https://paugram.com>Paul</a>" and <a href="https://www.fczbl.vip>FCZBL</a>". They are such relieable partners for helping us to build this awesome project.
 - We thank all those who once gave us advice and criticism. A project cannot always live in applause.
 
 # Contact
