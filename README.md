@@ -4,7 +4,10 @@
 
 <h1 align="center"><a href="https://qr.hxco.de" target="_blank">Pay Over CDN</a></h1>
 
-[![](https://data.jsdelivr.com/v1/package/gh/hxco-qr/pay_with_cdn/badge)](https://www.jsdelivr.com/package/gh/hxco-qr/pay_with_cdn)
+<img alt="Version" src="https://img.shields.io/badge/version-1.1-757575.svg?style=flat-square"/>
+<a href="https://tech.hxco.de"><img alt="Author" src="https://img.shields.io/badge/author-Huangxin-red.svg?style=flat-square"/></a>
+<a href="https://www.jsdelivr.com/package/gh/hxco-qr/pay_with_cdn" target="_blank"><img alt="jsDelivr" src="https://data.jsdelivr.com/v1/package/gh/hxco-qr/pay_with_cdn/badge"/></a>
+
 
 Pay Over CDN is a project that initiated by HXCO. 
 
