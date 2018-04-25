@@ -16,7 +16,7 @@ Pay Over CDN is a project that initiated by HXCO.
 
 It's mainly for merging the most popular mobile payments in China. Using global CDN to ensure 100% uptime and fastest access speed. 
 
-The source code was from MKBlog. 
+The source code was from <a href="https://mkblog.cn">MKBlog</a>. 
   - We use this project for profitable purposes, but it's mainly on the CDN feature. The source code are still open for everyone and open source with MIT lisence. Everyone who have a domain and a server can deploy the source code on their own.
   - We use jsDelivr to distribute static files.
 
@@ -43,5 +43,5 @@ The source code was from MKBlog.
 - We thank all those who once gave us advice and criticism. A project cannot always live in applause.
 
 # Contact
-- We use Telegram for the instant communication. Please find us at: https://t.me/TinyWhite
+- We use Telegram for the instant communication. Please find us at: https://t.me/hxfriends
 - If you met any problems, please submit an issue on Github. And pull requests will be most welcome.
