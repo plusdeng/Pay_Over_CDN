@@ -1,11 +1,11 @@
-if(navigator.userAgent.match(/Alipay/i)) {
+if (navigator.userAgent.match(/Alipay/i)) {
     // 支付宝
     window.location.href = setting.aliUrl;
-} else if(navigator.userAgent.match(/MicroMessenger\//i)) {
+} else if (navigator.userAgent.match(/MicroMessenger\//i)) {
     // 微信
     document.getElementById("wechat-url").src = setting.qrcodeApi + urlEncode(setting.wechatUrl);
     document.getElementById("code-wechat").style.display = "block";
-} else if(navigator.userAgent.match(/QQ\//i)) {
+} else if (navigator.userAgent.match(/QQ\//i)) {
     // QQ
     document.getElementById("qq-url").src = setting.qrcodeApi + urlEncode(setting.qqUrl);
     document.getElementById("code-qq").style.display = "block";
@@ -22,5 +22,5 @@ if(navigator.userAgent.match(/Alipay/i)) {
  * 输出参数：编码好的
  ****************************************/
 function urlEncode(String) {
-    return encodeURIComponent(String).replace(/'/g,"%27").replace(/"/g,"%22");
+    return encodeURIComponent(String).replace(/'/g, "%27").replace(/"/g, "%22");
 }
