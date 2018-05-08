@@ -30,7 +30,7 @@ The source code was from <a href="https://mkblog.cn">MKBlog</a>.
 - As a payment tool, we considered its security for you.
 - We're fully supporting HTTPS; All of the resources will be loaded via HTTPS Protocol. As long as your server support HTTPS, we can provide the safest connection to ensure no one can reach your payment information.
 - As an extra precaution, you can enable SRI for your QR Code Program. Subresource Integrity (SRI) is a security feature that enables browsers to verify that files they fetch (for example, from a CDN) are delivered without unexpected manipulation. It works by allowing you to provide a cryptographic hash that a fetched file must match.
-- If you're ours customer, HTTPS will be default, and SRI will be advanced options. We use a global CDN to delivr your qr-code; behind it, it's a Github Repo which is fully private and only visable for our stuffs. Therefore we're able to garantee you a high availability of your qr-code.
+- If you're ours customer, HTTPS will be default, and SRI will be advanced options. We use a global CDN to deliver your qr-code. There's a Github Repo behind our reliable CDN which is fully private and only visable for our stuffs. Therefore we're able to garantee you a high availability of your qr-code.
 
 
 # How to Use
