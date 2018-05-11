@@ -55,7 +55,9 @@ The source code was from <a href="https://mkblog.cn">MKBlog</a>.
 <br>
 <hr>
 <br>
+
 # 中文翻译
+
 惶心二维码是由 HXCO 发起的一个项目。
 
 这个项目主要是为了合并在中国最流行的移动支付方式而发起的。使用全球內荣分发网络以保证 100% 可用性以及最快的访问速度。
