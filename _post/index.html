@@ -5,10 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hxco-qr/pay_with_cdn@1.1.1/elements/style.min.css" integrity="sha256-I0dqqiya6DAM4coMr5ic04sKx38MkBK0k3iMuKI+0pY="
-        crossorigin="anonymous">
-    <link rel="icon" href="https://cdn.jsdelivr.net/gh/hxco-qr/pay_with_cdn@1.1/favicon.ico">
     <title>Pay To Huangxin</title>
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/hxco-qr/pay_with_cdn@1.1/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hxco-qr/pay_with_cdn@1.1/elements/style.min.css" integrity="sha256-P0qHvg+L5x9d+BqukX2+RCelAsyq/mQ0CoelyrTg3Fw=" crossorigin="anonymous">    <title>Pay To Huangxin</title>
 
 </head>
 
@@ -20,7 +19,7 @@
             <img id="page-url" src="">
         </div>
         <div class="code-footer">
-            扫描二维码 向我付款
+            扫描以上二维码 向我付款
         </div>
     </div>
     <div class="code-item" id="code-qq">
@@ -30,7 +29,7 @@
             <img id="qq-url" src="">
         </div>
         <div class="code-footer">
-            长按二维码 向我付款
+            长按以上二维码 向我付款
         </div>
     </div>
     <div class="code-item" id="code-wechat">
@@ -40,18 +39,20 @@
             <img id="wechat-url" src="">
         </div>
         <div class="code-footer">
-            长按二维码 向我付款
+            长按以上二维码 向我付款
         </div>
     </div>
 
-    <script src="elements/config.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/hxco-qr/pay_with_cdn@1.1.1/elements/generate.min.js" integrity="sha256-7eWtbbdc9kE7fxYyAav53+4S3Wj6vechfdz+TsVxa/Y="
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/combine/gh/hxco-qr/pay_with_cdn@1.1/elements/config.min.js,gh/hxco-qr/pay_with_cdn@1.1/elements/generate.min.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111752336-3"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-111752336-3');
